@@ -1,0 +1,69 @@
+
+/* quale è l'ordine giusto?
+questo qui sotto è l'ordine piu' corretto come scrivere i file css
+tag / id /class */
+
+
+
+
+
+
+body {
+    font-family: sans-serif;
+    background-image: url("../img/istockphoto-1318101781-170667a.jpg");
+}
+/* ../ si usa per uscire di una cartella
+../../ si usa per uscire di due cartelle
+../../../ si usa per uscire di tre cartelle
+etc.. */
+
+header{
+    text-align: center;
+    background-color: blue;
+    border-bottom: 3px solid rgb(229, 215, 11);
+}
+
+main {
+    background-color: rgb(44, 151, 58) ;
+}
+
+/* prima soluzione */
+/* #immagine{ 
+    width: 80px;
+} */
+
+/* Seconda soluzione */
+header img{
+    width: 80px;
+}
+
+
+/* soluzione uno */
+/* h2{
+    color: red;
+}
+h3{
+    color: rgb(68, 33, 165);
+} */
+
+/* solucione due */
+
+.Section-title {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+}
+
+.item h3{
+    font-style: italic;
+    color: rgba(30,20,100,0.5)
+}
+section{
+    width: 80%;
+}
+footer{
+    background-color: rgb(18, 18, 180);
+    color: rgb(red, green, blue);
+    text-align: center;
+    border-top: 6px solid rgb(229, 215, 11);
+}
